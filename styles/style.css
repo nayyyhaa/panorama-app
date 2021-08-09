@@ -17,16 +17,17 @@ button {
     cursor: pointer;
     background: rgb(0, 44, 0);
     color: white;
-    padding: 0.25rem 0.5rem;
+    padding: 0.5rem 0.75rem;
     border-radius: 0.25rem;
 }
 
 .header-content {
     display: flex;
+    flex-wrap: wrap;
     width: 80%;
     margin: auto;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 1rem 0;
 }
 
@@ -34,6 +35,15 @@ button {
     text-decoration: none;
     color: white;
     text-shadow: 1px 1px 3px black;
+}
+
+.search-input {
+    padding: 0.25rem;
+}
+
+.searched-header {
+    text-align: center;
+    margin: 1rem;
 }
 
 .gallery-grid {
@@ -49,9 +59,22 @@ button {
     margin: 1rem;
 }
 
+.gallery-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    margin: 0.5rem 0;
+}
+
+.gallery-container a {
+    color: gray;
+    text-decoration: none;
+}
+
 .gallery-img img{
     height: 400px;
     width: 300px;
+    object-fit: cover;
 }
 
 .nav-btn {
