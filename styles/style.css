@@ -53,6 +53,7 @@ button {
     flex-wrap: wrap;
     width: 90%;
     margin: auto;
+    min-height: 70vh;
 }
 
 .gallery-img {
